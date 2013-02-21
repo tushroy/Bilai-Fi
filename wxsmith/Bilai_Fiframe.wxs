@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="Bilai_FiFrame">
+		<title>Bilai-Fi Connect</title>
+		<centered>1</centered>
+		<size>388,236</size>
+		<id_arg>0</id_arg>
+		<style>wxCAPTION|wxCLOSE_BOX|wxMINIMIZE_BOX</style>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>120,208</pos>
+			<size>384,236</size>
+			<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+				<label>Setup</label>
+				<pos>16,16</pos>
+				<size>224,168</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>SSID:</label>
+				<pos>64,56</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_SSID" variable="txtSSID" member="yes">
+				<value>Bilai-Fi</value>
+				<pos>112,48</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Password:</label>
+				<pos>40,88</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="txtPass" member="yes">
+				<value>12345678</value>
+				<pos>112,88</pos>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="btnStart" member="yes">
+				<label>&amp;Start</label>
+				<pos>40,136</pos>
+				<handler function="OnbtnStartClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON2" variable="btnStop" member="yes">
+				<label>St&amp;op</label>
+				<pos>136,136</pos>
+				<handler function="OnbtnStopClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON3" variable="btnExit" member="yes">
+				<label>E&amp;xit</label>
+				<pos>272,24</pos>
+				<handler function="OnbtnExitClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON4" variable="btnAbout" member="yes">
+				<label>&amp;About</label>
+				<pos>272,56</pos>
+				<handler function="OnbtnAboutClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxPanel" name="ID_PANEL2" variable="Panel2" member="yes">
+				<pos>248,96</pos>
+				<size>128,128</size>
+				<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+					<value>Use atleast 6 characters in SSID field and &#x0A;&#x0A;Use atleast 8 characters in Password field. &#x0A;&#x0A;Do not left the fields blank.</value>
+					<pos>0,0</pos>
+					<size>128,128</size>
+					<enabled>0</enabled>
+					<style>wxTE_NO_VSCROLL|wxTE_MULTILINE|wxNO_BORDER|wxFULL_REPAINT_ON_RESIZE</style>
+				</object>
+			</object>
+		</object>
+	</object>
+</wxsmith>

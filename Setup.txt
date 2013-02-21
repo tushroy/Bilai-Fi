@@ -1,0 +1,12 @@
+Enable Internet Connection Sharing of your current Network Adapter.
+
+1. go to "Control Panel"
+2. Click "Network and sharing Center"
+3. Click "Change Adapter Settings"
+4. Find out your current network adapter by which you are using internet.
+5. Select and right click to open its propertise.
+6. Click "Sharing"
+7. Under "Internet Connection Sharing" check mark the "Allow other network users to connect through this computer's
+   internet connection"
+8. Apply or Ok.
+9. Now open the Bilai-Fi and try to connect.
